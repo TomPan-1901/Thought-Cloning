@@ -16,7 +16,7 @@ def expr_group_name():
 
 def storage_dir():
     # defines manually here 
-    return 'path-to-thought-cloning'
+    return '/TC_STORAGE'
     # could also difine from environment
     # return os.environ.get("TC_STORAGE", '.')
 
